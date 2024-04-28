@@ -7,8 +7,7 @@
           margin: 1;
           padding: 1;
           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-          text-align:left;
-          
+
          
         }
 
@@ -30,16 +29,21 @@
           margin:Left;
         }
 
-        .img-div{
-            width: 20px;
-            height: 10px;
-        }
 
-        #img-1{
-            background-color: rgb(80, 79, 79);
-            width: 1800px;
-            
-        }
+        header {
+       background-color: #333;
+       color: white;
+       padding: 5px;
+       text-align: center;
+     }
+
+     nav a {
+       color: white;
+       text-decoration: none;
+       margin: 0 10px;
+     }
+
+      
         
 
         
@@ -53,9 +57,9 @@
     
     
     <header>
-        <div class="img-div" id="img-1"></div>
+        
        <section id="header">
-        <figure style="margin:1cap">
+        <figure style="margin:10cap">
         <h1>Renzos Hamburguesas</h1>
         
     <br><br>
@@ -66,7 +70,7 @@
             <li>
                 <a href="#menu-section"  target="_top">Menu</a>
             </li>
-            <br>
+            
             <li>
                 <a href="#order-form-section">Ordenar ahora!</a>
             </li>
@@ -140,7 +144,7 @@
             <label><input type="checkbox">El Tipiquito</label>
             <br><br>
             
-            <label>Cantidad de pedidos: <input type="number" minlength="0" max="99">
+            <label>Cantidad de pedidos: <input type="number" min="0">
             </label>
             <br><br>
             <h3>Sides</h3>
@@ -152,7 +156,7 @@
                 <label></label><input type="checkbox"></label> Anillos de cebolla
                 <br>
                 <br>
-                <label>Cantidad: <input type="number" minlength="0" max="99"></label>
+                <label>Cantidad: <input type="number" min="0"></label>
             <br><br>
             <h3>Toppings</h3>
             <br>
